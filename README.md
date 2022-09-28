@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/messiest-css-in-the-universe-product-preview-card-component-f1spEMUsZF](https://your-solution-url.com)
 - Live Site URL: [https://weakiam.github.io/product-preview-card-component-frontendmentor/](https://your-live-site-url.com)
 
 ## My process
