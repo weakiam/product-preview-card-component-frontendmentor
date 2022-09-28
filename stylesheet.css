@@ -1,0 +1,192 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+
+}
+
+.card {
+    background-color: white;
+    height: 450px;
+    max-width: 600px;
+    margin: 10% auto 100px;
+    border-radius: 10px;
+
+}
+
+.imgdesktop {
+    width: 300px;
+    margin-bottom: -5px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px 0 0 10px;
+}
+
+.imgmobile{
+    display: none;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    line-height: 2rem;
+    padding-right: 3rem;
+}
+
+h2 {
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgb(92, 92, 92);
+    letter-spacing: 0.3rem;
+    padding-top: 25px;
+
+
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.copy {
+    font-size: 0.87rem;
+    color: rgb(92, 92, 92);
+    padding-right: 3rem;
+    line-height: 1.5rem;
+}
+
+.pricenormal {
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    margin-top: 3px;
+   
+}
+
+.pricediscount {
+    color: rgb(92, 92, 92);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    font-size: 0.87rem;
+    margin-left: 1rem;
+    
+    
+}
+
+.prices{
+    margin-top: 1.25rem;
+    display: flex;
+    
+}
+
+.button{
+
+display: inline-flex;
+height: 45px;
+padding: 0;
+background-color: hsl(158, 36%, 37%);
+border: none;
+outline: none;
+border-radius: 8px;
+overflow: hidden;
+font-family: 'Montserrat', sans-serif;
+font-size: 0.85rem;
+font-weight: 700;
+color: white;
+padding: 0 65px;
+margin-top: -5px;
+}
+
+.button:hover{
+    background-color:  hsl(158, 36%, 22%); ;
+}
+.button:focus{
+    background-color:  hsl(159, 36%, 15%); ;
+}
+
+.icon{
+    font-size: 1.2rem;
+    padding-right: 10px ;
+}
+
+.button_text, .icon{
+display: inline-flex;
+align-items: center;
+
+
+    
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .imgmobile{
+        display:inline;
+        width: 340px;
+    margin-bottom: -5px;
+    margin-right: 30px;
+    border-radius: 10px 10px 0 0;
+    }
+
+    .imgdesktop{
+        display: none;
+    }
+
+    .card {
+        background-color: white;
+        height: 620px;
+        max-width: 340px;
+        margin: 10% auto 100px;
+        border-radius: 10px;
+    
+    }
+
+    .cardbody{
+        padding-left: 20px;
+    }
+
+    h1{
+padding-right: 0;
+    }
+
+    .copy{
+        padding-right: 30px;
+    }
+.button{
+    padding: 0 95px;
+    margin-top: -15px;
+
+}
+
+h2 {
+    padding-top: 15px;
+    padding-bottom: 3px;
+    
+}
+    
+h1{
+    margin-top: 0px;
+}
+
+
+
+
+
+}
+
+/* 
+
+
+
+font-family: 'Fraunces', serif;
+
+font-family: 'Montserrat', sans-serif; 
+
+
+*/
